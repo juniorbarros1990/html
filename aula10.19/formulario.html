@@ -7,7 +7,7 @@
 </head>
 <body>
 <!--aprendendo  form label formulario-->
-<table width="230px" align="certer">
+<table width="230px" align="center">
     <thead>
         <tr>
             <th><h2>faça seu login aqui</h2></th>
@@ -16,13 +16,14 @@
     <tbody>
         <tr>
             <td>
-                <form action="">
+                <form method="get" action="home.html">
                     <label for="input_nome">
                         nome de usuario : <input id="input_nome" type="text">
                     </label>
-                    <label for="input_pass">informe sua senha: <input id="input_pass" type="password">
+                    <label for="input_pass">informe sua senha: <input id="input_pass" name="input_pass" type="password">
                     </label>
-                    <input type="button"id="input_enviar" value="Enviar">
+                    <button type="submit">Enviar</button>
+
                 </form>
             </td>
         </tr>
