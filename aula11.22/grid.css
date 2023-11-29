@@ -1,0 +1,27 @@
+*{margin: 0px;padding: 0px;font-size: 26px;}
+
+
+body{background-color: #d9d9d9;
+display: grid;
+height: 100vh;
+width: 100vw;
+grid-template-rows: 5% 40% 25% 30%;
+grid-template-columns:25% 25% 15% 15% 20% ;
+grid-template-areas: 
+"header header header header nav "
+"article article abs abs nav"
+"main small abs abs nav"
+"main small section samp nav"
+
+
+}
+
+header{background-color: green;grid-area: header;}
+nav{background-color: blue;grid-area: nav;}
+article{background-color: yellow;grid-area: article;}
+div{background-color: orange;grid-area: abs;}
+footer{background-color: gray;grid-area: footer;}
+main{background-color: black;grid-area: main;}
+small{background-color: red;grid-area: small;}
+section{background-color: aquamarine;grid-area:section ;}
+samp{background-color: aqua;grid-area: samp;}

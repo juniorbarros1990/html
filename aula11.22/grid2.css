@@ -1,0 +1,17 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box; font-size: 26px; }
+
+body{background-color: #2e2e2e;display: grid;grid-template-areas: 
+    "header header"
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+    ;}
+
+header{grid-area: header;}
+main{grid-area: main;}
+nav{grid-area: nav;}
+footer{grid-area: footer;}
+

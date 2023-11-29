@@ -1,0 +1,19 @@
+*{margin: 0px;padding: 0px;}
+
+.grid{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    
+
+}
+
+.not{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+color: blue;
+font-family: 'Courier New', Courier, monospace;
+font-size: 15px;
+align-items: center;
+
+}
+
+.anu{display: grid; }

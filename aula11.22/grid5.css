@@ -1,0 +1,17 @@
+*{margin: 0px;padding: 0px;font-size: 26px;}
+
+body{display: grid; background-color: dimgray;gap:10px;height: 100vh;width: 100vw;grid-template-columns: auto;grid-template-rows: auto;margin: 1%;
+grid-template-areas: 
+"div1 div2 div2 div3"
+"div1 div4 div5 div8"
+"div1 div6 div7 div8"
+;}
+
+.div1{background-color: black;color:aqua;grid-area: div1;}
+.div2{background-color: blue;grid-area: div2;}
+.div3{background-color: brown;grid-area: div3;}
+.div4{background-color: burlywood;grid-area: div4;}
+.div5{background-color: cadetblue;grid-area: div5;}
+.div6{background-color:chartreuse;grid-area: div6;}
+.div7{background-color: deepskyblue;grid-area: div7;}
+.div8{background-color: ghostwhite;grid-area: div8;}

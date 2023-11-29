@@ -1,0 +1,6 @@
+*{margin: 0px;padding: opx;}
+
+.div-border{
+    border: 3px solid black;
+}
+.container-main{display: grid;grid-template-columns: 20vw 20vw 20vw 20vw 20vw;}

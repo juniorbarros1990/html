@@ -1,0 +1,18 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;font-size: 26px;}
+
+body{background-color: blue;color: aqua;width: 100vw;height: 100vh;gap: 10px;display: grid;
+grid-template-areas:
+"div1 div1 div2 div2 div2"
+"div1 div1 div3 div3 div4"
+"div5 div5 div3 div3 div6"
+; } 
+
+
+
+
+.div1{background-color:chocolate;grid-area: div1;}
+.div2{background-color: beige;grid-area: div2;}
+.div3{background-color: black;grid-area: div3;}
+.div4{background-color: brown;grid-area: div4;}
+.div5{background-color: cadetblue;grid-area: div5;}
+.div6{background-color: chartreuse;grid-area: div6;}
